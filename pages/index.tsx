@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Header from '../components/Header'
 import styles from '../styles/Home.module.css'
 import { useRouter } from 'next/router'
+import Hero from '../components/Hero'
 
 const Home: NextPage = () => {
   const router = useRouter()
@@ -17,11 +18,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          {'' === router.basePath ? 'Home!' : router.basePath  }
-        </h1>
-      </main>
+      <Hero/>
     </div>
   )
 }
