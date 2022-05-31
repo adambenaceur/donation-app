@@ -67,3 +67,51 @@
     bottom: -4px;
     left: 20px;
 }
+
+
+.hero {
+    background: white;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.hero-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.hero-text h1 {
+    text-align: center;
+    font-size: xxx-large;
+    padding:20px;
+
+}
+.hero-text h4 {
+    font-family: Rubik;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.hero-text button {
+    font-family: Rubik;
+    font-weight: 500;
+    background-color: #fed497;
+    border:none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+.hero-img img {
+    width: 800px;
+    height: 800px;
+    padding: 50px
+}
+
+
