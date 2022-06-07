@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Header from '../components/Header'
 import { useRouter } from 'next/router'
 import Hero from '../components/Hero'
+import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
   const router = useRouter()
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       </Head>
       <Header/>
       <Hero/>
+      <Footer/>
     </div>
   )
 }
