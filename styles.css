@@ -199,3 +199,40 @@
     margin: 20px 30px 20px 10px;
 }
 
+/* Banner */
+
+.banner-img {
+    display:flex;
+    justify-content: center;
+    position:relative;
+}
+
+.banner img {
+    width:60%;
+    height:60%;
+}
+
+.banner-button:hover {
+    transform: scale(110%);
+    cursor:pointer;
+}
+.banner-img h1 {
+    position: absolute;
+    top:25%;
+    right:25%;
+    font-size: x-large;
+    
+
+}
+
+.banner-img button {
+    position: absolute;
+    top:50%;
+    right:34%;
+    font-size: x-large;
+
+    background-color: #fff4e6;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
