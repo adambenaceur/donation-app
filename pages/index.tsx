@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import { useRouter } from 'next/router'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
+import Portfolio from '../components/Portfolio'
 import Banner from '../components/Banner'
 
 const Home: NextPage = () => {
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
       </Head>
       <Header/>
       <Hero/>
+      <Portfolio/>
       <Banner/>
       <Footer/>
     </div>
