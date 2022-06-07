@@ -25,7 +25,7 @@ const CustomDonationInput = ({
   <label>
     Custom donation amount ({formatAmountForDisplay(min, currency)}-
     {formatAmountForDisplay(max, currency)}):
-    <input
+    <input 
       className={className}
       type="number"
       name={name}
@@ -36,6 +36,7 @@ const CustomDonationInput = ({
       onChange={onChange}
     ></input>
     <input
+      className={className}
       type="range"
       name={name}
       value={value}
