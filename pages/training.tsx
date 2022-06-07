@@ -8,7 +8,7 @@ const Training: NextPage = () => {
 
       <div >
         <Header/>
-        <h1>training!</h1>
+        
       </div>
 
   )
